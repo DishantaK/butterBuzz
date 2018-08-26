@@ -1,0 +1,121 @@
+body {
+    background: url(images/weather.png);
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+}
+
+header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    height: 100px;
+    padding:50px;
+   
+}
+header h1 {
+    font-family: 'Fredoka One', cursive;
+    grid-column: span 1;
+    font-size: 2em;
+    
+  
+
+}
+header p {
+    text-shadow: 2px 2px #333;
+}
+
+header button {
+    width: 75px;
+    height: 50px;
+    border: 1px solid #fff ;
+    border-radius: 10%;
+    background-color: none;
+    color: #fff;
+    justify-self: end;
+    background-color: #02173E;
+}
+header p {
+    
+ 
+}
+
+main {
+    width: 60%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 1fr 25px ;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+    grid-gap:20px;
+    
+}
+
+.message {
+   
+
+}
+
+.message h2 {
+    font-size: 3em;
+    font-weight: bolder;
+    line-height: 1.5;
+    text-shadow: .5px .5px #333;
+}
+
+.message p {
+    color: #777;
+}
+.signup {}
+form {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(4,1fr);
+    grid-gap: 15px;
+}
+input {
+    width: 300px;
+    height: 30px;
+    padding:10px;
+    border: 0px;
+    border-radius: 2%;
+    font-size: .5em;
+   
+}
+.name {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.login {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+select {
+    grid-column: span 2;
+    grid-row: span 1;
+    font-family: 'Lato', sans-serif;
+    padding: 15px;
+    color: #777;
+
+
+}
+.fin {
+    grid-column: span 2;
+    grid-row: span 1;
+    border-radius: 2%;
+    font-size: 14px;
+    padding: 15px;
+    background-color:#02173E;
+    color: #fff;
+    border: 0px;
+    
+}
+
+.signup p {
+    margin: 20px;
+}
+
+.signup p a {
+    color: #fff;
+}
